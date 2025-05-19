@@ -13,11 +13,13 @@ body{
         You can also use max-width and auto margins to limit the width of the page content
         If you set a background-color here it will be the site background color.
     */
+    background-color: #282b92;
+    color: #ffffff;
 
 }
 h1,h2,h3,h4,h5,h6{
     /* Here you can set the font-family for your headings */
-
+    font-family: sans-serif;
 }
 
 /*  ------------------------------------------------------
@@ -30,7 +32,7 @@ a{
     border-bottom: 1px solid #1313f1;
 }
 a:hover{
-    color: #0fa4df;
+    color: #0fa9df;
     border-bottom: 3px solid #0fa4df;
 }
 a:visited{
@@ -44,7 +46,7 @@ a:visited{
     It also sets the color for the navigation.
     ------------------------------------------------------ */ 
 nav{
-    background-color: #fef6c6;
+    background-color: rgba(200, 253, 254, 0.91);
     padding: 10px;
 }
     nav ul{
